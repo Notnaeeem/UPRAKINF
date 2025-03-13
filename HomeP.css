@@ -71,7 +71,7 @@
 
 .image-box .text {
     position: absolute;
-    bottom: -100%;
+    bottom: -90%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 18px;

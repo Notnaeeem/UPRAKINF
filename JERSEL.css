@@ -1,0 +1,101 @@
+.IMGHOME {
+    position: relative;  /* Allows absolute positioning inside */
+    width: 1920px;  /* Adjust as needed */
+    max-width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+/* Make the image responsive */
+.IMGHOME img {
+    width: 1920px;
+    height: 1080px;
+    display: block;
+    object-fit: cover;
+}
+
+/* Centered text */
+.IMGTEXT_1 {
+    position: absolute; /* Positions it inside the .image-container */
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%); /* Centers it properly */
+    color: rgb(255, 255, 255);
+    font-size: 51px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+}
+
+.IMGTEXT_1:hover
+{
+    color: rgb(0, 0, 0);
+    font-size: 53px;
+}
+
+.Container img
+{ 
+    width: 300px; 
+    height: 360px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease-in-out;
+    border-radius: 20px;
+}
+.Container img:hover {
+    width: 310px;
+    height: 360px;
+    transform: scale(1.15);
+}
+
+.Pedas
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.SHOPSPORTS{
+    display: flex;
+    justify-content: center; /*  tengah tengah horizontal */
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(175, 175, 201);
+}
+
+.Kontainer {
+    transition: 0.3s;
+    border-radius: 5px;
+    font-family: 'Oswald',sans-serif;
+    gap: 10px;
+}
+
+.Kontainer img {
+    width:100%;
+    display: block;
+    height : 500px;
+    border-radius: 20px;
+}
+
+.Motto {
+    background-color: black;
+}
+
+.Motto h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}

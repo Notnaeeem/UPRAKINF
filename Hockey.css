@@ -1,0 +1,95 @@
+.Package {
+    position: relative;
+    display: inline-block;
+    padding-top: 80px;
+}
+
+.Beli {
+    position: absolute;
+    left: 6%;
+    bottom: 28%; 
+    background-color: #b11616;
+    color: white;
+    font-size: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px #8d0101;
+    transition: transform 0.4s ease-in-out;
+}
+
+.Beli:hover {
+    background-color: #570101;
+    box-shadow: 0 4px 8px #360000;
+    transform: scale(1.2);
+}
+
+  
+  
+  /* The navbar */
+  .topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Or any color */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .topnav a {
+    float: left;
+    align-items: center;
+    color: #030303;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: rgb(128, 126, 126);
+  }
+
+  a
+{
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+}
+
+.Con img
+{ 
+    width: 250px; 
+    height: 310px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease-in-out;
+    border-radius: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.Con img:hover {
+    width: 260px;
+    height: 310px;
+    transform: scale(1.025);
+}
+
+.Motto {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+}

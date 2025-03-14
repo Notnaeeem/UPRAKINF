@@ -103,3 +103,7 @@
   opacity: 0;
   transition: opacity 0.5s ease;
 }
+
+body{
+    background-color:#e1811f;
+}
